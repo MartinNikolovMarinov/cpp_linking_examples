@@ -1,0 +1,1 @@
+gcc -I . -c main.cpp && gcc -c add.cpp && gcc -o main add.o main.o && ./main
